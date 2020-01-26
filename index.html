@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" type="image/png" href="./favicon.png">
+</head>
+<body>
+  <div class="screen">
+    <div class="info-box">
+      <span>Click on result to copy</span>
+    </div>
+    <div class="container">
+      <div class="result">
+        <span>0</span>
+      </div>
+      <div class="pad">
+        <div class="reg-button gray" id="clear">AC</div>
+        <div class="reg-button gray" id="change-sign">+/-</div>
+        <div class="reg-button gray" id="percentage">%</div>
+        <div class="reg-button orange operation">/</div>
+        <div class="reg-button number" data-num="7">7</div>
+        <div class="reg-button number" data-num="8">8</div>
+        <div class="reg-button number" data-num="9">9</div>
+        <div class="reg-button orange mult operation"><span>+</span></div>
+        <div class="reg-button number" data-num="4">4</div>
+        <div class="reg-button number" data-num="5">5</div>
+        <div class="reg-button number" data-num="6">6</div>
+        <div class="reg-button orange minus operation">-</div>
+        <div class="reg-button number" data-num="1">1</div>
+        <div class="reg-button number" data-num="2">2</div>
+        <div class="reg-button number" data-num="3">3</div>
+        <div class="reg-button orange operation">+</div>
+        <div class="reg-button zero number" data-num="0"><span>0</span></div>
+        <a href="https://github.com/tekkenthuuug/ios-like-calc" target="_blank">
+          <div class="reg-button"><img src="./imgs/github-logo.svg" alt="Github logo"></div>
+        </a>
+        <div class="reg-button orange" id="equal">=</div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
