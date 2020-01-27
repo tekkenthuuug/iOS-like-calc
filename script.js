@@ -43,6 +43,7 @@ const renderField = () => {
 };
 
 const comute = () => {
+	if (state.savedField === undefined) state.savedField = state.currentField;
 	switch (state.operationId) {
 		/*
 		0 - Division
